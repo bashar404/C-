@@ -6,10 +6,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your Name:");
-            string name=Console.ReadLine();
-            Console.WriteLine("Welcome" + " " + name);  //concatenation
-            Console.WriteLine(" Good Morning {0}", name); //placeholder syntax
+            // Ctrl+k+c for comment
+            //Ctrl+K+u  for uncomment
+
+            Console.WriteLine("Enter your first Name:");
+            string fname = Console.ReadLine();
+            Console.WriteLine("Welcome" + " " + fname);  //concatenation
+
+            Console.WriteLine("Enter your last name: ");
+            string lname = Console.ReadLine();
+            Console.WriteLine(" Good Morning {0} {1}", fname, lname); //placeholder syntax
+
+
+            Console.WriteLine("Have a good day " + fname + " " + lname);
+
             Console.ReadLine();
         }
     }
