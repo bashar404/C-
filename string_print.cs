@@ -24,3 +24,13 @@ namespace ConsoleApp1
         }
     }
 }
+
+/*
+Enter your first Name:
+golam
+Welcome golam
+Enter your last name:
+bashar
+ Good Morning golam bashar
+Have a good day golam bashar
+*/
